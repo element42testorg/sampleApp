@@ -17,7 +17,7 @@ public class MainActivityTest {
 
     @Test
     public void isValidEmailID1() throws Exception {
-        assertTrue("Empty mail id", isValidEmail(""));
+        assertFalse("Empty mail id", isValidEmail(""));
     }
 
     @Test
